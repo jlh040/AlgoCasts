@@ -8,13 +8,13 @@
 
 // O(n^2) quadratic runtime
 function reverse(str) {
-    let reversedString = '';
+    let reverseString = '';
 
     for (let i = str.length - 1; i >= 0; i--) {
-        reversedString += str[i];
+        reverseString += str[i];
     }
 
-    return reversedString;
+    return reverseString;
 }
 
 module.exports = reverse;
