@@ -6,7 +6,7 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-// O(n^2) quadratic runtime
+// O(n^2) quadratic runtime complexity
 function reverse(str) {
     let reversedString = '';
 
